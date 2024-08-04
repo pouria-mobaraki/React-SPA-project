@@ -1,13 +1,14 @@
 import React from 'react'
-import {Routes,Route} from 'react-router-dom'
-import coursesData from './components/CoursesData'
+import { Routes,Route } from 'react-router-dom'
+import Header from './components/Header'
 
 export default function App() {
   return (
     <>
-    <Routes>
-      {/* <Route path='/courses' element={<Courses />}/> */}
-    </Routes>
+   <Header/>
+   <Routes>
+    <Route path='/courses' />
+   </Routes>
     </>
   )
 }

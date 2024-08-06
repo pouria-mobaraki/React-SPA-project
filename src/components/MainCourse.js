@@ -9,8 +9,6 @@ export default function MainCourse() {
  console.log(params.courseId);
  let mainCourseData = CoursesData.find(course =>course.id == params.courseId)
  console.log(mainCourseData);
- 
-
   return (
     <Container className='mt-5'>
       <Row>
